@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CBD300E821016F1000F35EA5 /* XMTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD300E621016F0F00F35EA5 /* XMTimeView.m */; };
+		CBD300EB2101734800F35EA5 /* NSString+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD300E92101734800F35EA5 /* NSString+Time.m */; };
 		D8AE57F12100E6E3001AA3B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AE57F02100E6E3001AA3B0 /* AppDelegate.m */; };
 		D8AE57F92100E6E8001AA3B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8AE57F82100E6E8001AA3B0 /* Assets.xcassets */; };
 		D8AE57FC2100E6E8001AA3B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8AE57FA2100E6E8001AA3B0 /* LaunchScreen.storyboard */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CBD300E621016F0F00F35EA5 /* XMTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMTimeView.m; sourceTree = "<group>"; };
+		CBD300E721016F0F00F35EA5 /* XMTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMTimeView.h; sourceTree = "<group>"; };
+		CBD300E92101734800F35EA5 /* NSString+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Time.m"; sourceTree = "<group>"; };
+		CBD300EA2101734800F35EA5 /* NSString+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Time.h"; sourceTree = "<group>"; };
 		D8AE57EC2100E6E3001AA3B0 /* exampleGCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exampleGCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8AE57EF2100E6E3001AA3B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8AE57F02100E6E3001AA3B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -135,6 +141,8 @@
 		D8AE58232100E754001AA3B0 /* exampleVC */ = {
 			isa = PBXGroup;
 			children = (
+				CBD300E721016F0F00F35EA5 /* XMTimeView.h */,
+				CBD300E621016F0F00F35EA5 /* XMTimeView.m */,
 				D8AE58242100E780001AA3B0 /* XM_GCDExampleViewController.h */,
 				D8AE58252100E780001AA3B0 /* XM_GCDExampleViewController.m */,
 			);
@@ -144,6 +152,8 @@
 		D8AE58272100E928001AA3B0 /* vetor */ = {
 			isa = PBXGroup;
 			children = (
+				CBD300EA2101734800F35EA5 /* NSString+Time.h */,
+				CBD300E92101734800F35EA5 /* NSString+Time.m */,
 				D8AE58282100E940001AA3B0 /* XMTimer.h */,
 				D8AE58292100E940001AA3B0 /* XMTimer.m */,
 			);
@@ -282,6 +292,8 @@
 				D8AE58262100E780001AA3B0 /* XM_GCDExampleViewController.m in Sources */,
 				D8AE57FF2100E6E8001AA3B0 /* main.m in Sources */,
 				D8AE582A2100E940001AA3B0 /* XMTimer.m in Sources */,
+				CBD300E821016F1000F35EA5 /* XMTimeView.m in Sources */,
+				CBD300EB2101734800F35EA5 /* NSString+Time.m in Sources */,
 				D8AE57F12100E6E3001AA3B0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,7 +456,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3YBGWZ37Y;
 				INFOPLIST_FILE = exampleGCD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +474,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3YBGWZ37Y;
 				INFOPLIST_FILE = exampleGCD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
